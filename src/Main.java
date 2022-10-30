@@ -6,9 +6,15 @@ public class Main {
         Book firstBook = new Book("It", firstAuthor, 1985);
             firstBook.setYearOfPublication(1986);
 
+        System.out.println(firstBook);
+
         Author secondAuthor = new Author("Dante", "Alighieri");
 
         Book secondBook = new Book("The Divine Comedy", secondAuthor, 13200);
-            firstBook.setYearOfPublication(1320);
+            secondBook.setYearOfPublication(1320);
+
+        System.out.println(secondBook);
+
+
     }
 }
